@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Travel List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and intuitive React application for managing your packing checklist before traveling.
+
+## Features
+
+- ✅ Add items to your packing list
+- 📝 Edit or delete items from your list
+- ✔️ Mark items as packed/unpacked
+- 📊 View packing statistics (percentage packed)
+- 🗑️ Clear entire packing list
+- 💾 Clean and responsive UI
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── App.js           # Main application component
+│   ├── Form.js          # Form to add new items
+│   ├── Item.js          # Individual packing item component
+│   ├── Logo.js          # Logo component
+│   ├── PackingList.js   # List of packing items
+│   └── Stats.js         # Statistics display
+├── index.js             # Entry point
+└── index.css            # Global styles
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd travel-list
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Start the development server
+
+```bash
+npm start
+```
+
+The app will open at `http://localhost:3000` in your browser.
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - Runs the app in development mode
+- `npm build` - Builds the app for production
+- `npm test` - Runs the test suite
+- `npm eject` - Ejects from Create React App (irreversible)
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Add Items**: Enter an item name and quantity in the form and click "Add"
+2. **Mark as Packed**: Click the checkbox next to an item to mark it as packed
+3. **Delete Items**: Click the delete button (❌) to remove an item
+4. **View Statistics**: See the total number of items and percentage packed at the bottom
+5. **Clear List**: Use the "Clear" button to remove all items at once
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **React** 18.2.0
+- **React DOM** 18.2.0
+- **React Scripts** 5.0.1
+- **Testing Library** for component testing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Browser Support
 
-### `npm run build`
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project is part of the Ultimate React Course.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created as part of the Ultimate React Course learning exercises.
